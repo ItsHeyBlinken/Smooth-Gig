@@ -73,15 +73,9 @@ Test logins are documented in `Memory-Bank/techContext.md`.
 
 ---
 
-## Legacy Event Planner CRM (deprecated)
+## Legacy Event Planner CRM (removed)
 
-The following SQL files are **not used by PortalHub**. Kept for reference only; do not run on a live PortalHub database unless you intend to reset everything.
-
-- `schema.sql`, `sample_data.sql`, `useful_queries.sql`
-- `add_client_auth.sql`, `add_event_codes.sql`, `update_schema_for_boilerplate.sql`
-- `complete_schema_fix.sql`, `fix_*.sql`, `create_test_user.sql`, `working_passwords.sql`, `update_passwords.sql`
-
-See `archive/legacy-crm/README.md` for details.
+The SQL files from the earlier Event Planner CRM (before the move to the vendor/client portal model) have been removed from this repository. They are not used by SmoothGig. The active schema is the numbered migrations above.
 
 ---
 
